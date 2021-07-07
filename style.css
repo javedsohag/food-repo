@@ -1,12 +1,14 @@
 body{
     font-family:"poppins",sans-serif;
     background-color: aqua;
+    margin: 0%;
 }
 h1{
     font-size: 50px;
 }
 .orange-color{
     color: orange;
+    font-family: cursive;
 }
 .container{
     display: flex;
@@ -14,6 +16,10 @@ h1{
 .half-width{
     width: 50%;
     padding: 10px;
+}
+.no-one{
+    font-family: cursive;
+    font-size: large;
 }
 .first-img{
     width: 70%;
@@ -24,13 +30,65 @@ h1{
 
 .link-buttom{
     text-decoration: none;
-    background-color: orange;
+    color: black;
+    background-color: rgb(142, 255, 240);
     font-weight: 700;
     padding: 10px 40px;
     border-radius: 40%;
-    background-image: linear-gradient();
+    box-shadow: 5px 2px 10px black;
 }
 .second-img{
     width: 70%;
     padding-left: 50px;
+}
+.food{
+    text-align: center;
+    padding-top: 5%;
+}
+.fast-food{
+    font-family: serif;
+    color: black;
+}
+.middle{
+    font-family: monospace;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+}
+#header{
+    color: beige;
+
+}
+.last-container{
+    display: flex;
+    padding: 10%;
+}
+.image-last{
+    width: 70%;
+    padding-left: 15%;
+    padding-top: 10px;
+}
+.last-div{
+    width: 33%;
+    padding: 20px;
+    box-shadow: 5px 2px 10px black;
+}
+.last-header{
+    color: rgb(88, 158, 19);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.all{
+    background-color: darkslategray;
+    
+}
+.burger{
+    color: darkred;
+    text-align: center;
+    font-family: cursive;
+}
+.house{
+    color: rgb(43, 192, 192);
+    text-align: center;
+    font-family: serif;
 }
