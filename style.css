@@ -1,5 +1,6 @@
 body{
     font-family:"poppins",sans-serif;
+    background-color: aqua;
 }
 h1{
     font-size: 50px;
@@ -7,7 +8,7 @@ h1{
 .orange-color{
     color: orange;
 }
-section{
+.container{
     display: flex;
 }
 .half-width{
@@ -18,10 +19,18 @@ section{
     width: 70%;
     padding-left: 80px;
     padding-top: 50px;
-}
+    
+ }
+
 .link-buttom{
     text-decoration: none;
     background-color: orange;
     font-weight: 700;
     padding: 10px 40px;
+    border-radius: 40%;
+    background-image: linear-gradient();
+}
+.second-img{
+    width: 70%;
+    padding-left: 50px;
 }
